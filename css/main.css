@@ -139,4 +139,10 @@ body {
         padding-right: 1.5em;
         margin-top: -1.5em;
     }
+    
+        .social-media {
+        font-size: 1em;
+        text-align: center; 
+        padding: 1em 0;
+    }
 }
