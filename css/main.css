@@ -14,6 +14,7 @@ html {
 
     font-family: 'Raleway', sans-serif;
     color: 000;
+    font-weight: 300;
 }
 
 *, *::before, *::after {
@@ -25,17 +26,117 @@ body {
     margin: 0 auto;
 }
 
+.billboard {
+    height: 100vh;
+}
+
 .mehihello {
-    width: 100%;
+    position: center;
     height: 50%;
+    margin-left: -5em;
 }
 
 .bio { 
+    font-size: 2.75em;
+    text-align: center;
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
+.bio-extra { 
+    font-size: 1.25em;
+    text-align: center;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    margin-top: -.25em;
+}
+
+.email {
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
     font-size: 1.5em;
+    color: #48526b;
+    font-weight: 700;
+}
+
+.address {
+    text-align: center;
+}
+
+.social-media {
+    text-align: center; 
+    padding: 1em 0;
+}
+
+.social-media a,
+.social-media a:link,
+.social-media a:visited {
+    text-decoration: none;
+    font-weight: 600;
+    color: #000;
+}
+
+@media only screen and (min-width: 30em) {
+    .mehihello {
+        position: center;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    .bio-extra { 
+        font-size: 1em;
+        text-align: center;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+        margin-top: -1.25em;
+    }
 }
 
 @media only screen and (min-width: 48em) {
+    .bio {
+        font-size: 3.25em;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    
+    .bio-extra { 
+        font-size: 1.75em;
+        text-align: center;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+        margin-top: -1.25em;
+    }
+    
+    .email {
+        text-decoration: none;
+        text-align: center;
+        width: 100%;
+        font-size: 2.5em;
+        color: #48526b;
+        font-weight: 700;
+    }
+    
+    .social-media {
+        font-size: 1.75em;
+        text-align: center; 
+        padding: 1em 0;
+    }
 }
 
+
 @media only screen and (min-width: 72em) {
+    .bio {
+        font-size: 4.5em;
+    }
+    
+    .bio-extra { 
+        font-size: 1.75em;
+        text-align: center;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+        margin-top: -1.5em;
+    }
 }
