@@ -29,13 +29,14 @@ body {
 
 .billboard {
     height: 100vh;
+    overflow-x: hidden;
 }
 
 .mehihello {
     position: center;
     height: 50%;
     margin-left: -5em;
-    overflow-x: hidden;
+
 }
 
 .bio { 
