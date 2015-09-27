@@ -35,6 +35,7 @@ body {
     position: center;
     height: 50%;
     margin-left: -5em;
+    overflow-x: hidden;
 }
 
 .bio { 
